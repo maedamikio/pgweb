@@ -8,7 +8,7 @@ You can run container from Docker Hub or Build Image.
 
 ## from Docker Hub
 
-This version is 0.9.10
+This version is 0.9.11
 
 ```
 $ docker run -d -p 8081:8081 --name pgweb maedamikio/pgweb
@@ -31,4 +31,4 @@ http://localhost:8081/
 
 # Authors
 
-* **MAEDA Mikio** - [Twitter](https://twitter.com/maeda_mikio)
+MAEDA Mikio - [Twitter](https://twitter.com/maeda_mikio)
