@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/*
 
-ENV PGWEB_VERSION 0.9.11
+ENV PGWEB_VERSION 0.9.12
 RUN wget https://github.com/sosedoff/pgweb/releases/download/v$PGWEB_VERSION/pgweb_linux_amd64.zip && \
     unzip pgweb_linux_amd64.zip -d /usr/bin && \
     mv /usr/bin/pgweb_linux_amd64 /usr/bin/pgweb && \
